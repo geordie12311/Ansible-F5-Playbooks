@@ -1,4 +1,4 @@
-# Playbook to setup a F5 load balancer nodes, pool, VIP in one go and save the
+# Playbook to setup a F5 load balancer nodes, pool, VIP in one go and save the config.
 ## First task is going to create the nodes
 ## Second task is going to create the pool
 ## Third task is going to add members to the pool
