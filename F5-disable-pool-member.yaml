@@ -1,4 +1,4 @@
-# Playbook to disable a pool member on F5 Load Balancer. This playbook will:
+# Playbook to disable a pool member on F5 Load Balancer. This playbook will do the following:
 ## Retrieve Facts from BIG-IP for the pools present on the Load Balancer
 ## Display pools available
 ## Store the pool name as a fact
