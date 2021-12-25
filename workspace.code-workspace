@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../Ansible-Playbooks"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
