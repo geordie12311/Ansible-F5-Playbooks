@@ -1,13 +1,13 @@
-#Playbook to gather facts from the F5 load balancer
-##bigip_device_info: tells the task which module to use. Everything except register is a module parameter defined on the module
-##The gather_subset: system_info parameter tells the module only to grab system level information.
-##The provider: parameter is a group of connection details for the Load Balancer
-##The server: "private_ip" parameter tells the module to connect to the F5 IP address, which is a variable stored in inventory
-##The user: "ansible_user" parameter tells the module the username to login to the F5 device with
-##The password: "ansible_password" parameter tells the module the password to login to the F5 BIG-IP device with, variable in inventory
-##The server_port: parameter tells the module the port to connect to the F5 device with
-##The validate_certs: false parameter tells the module to not validate SSL certificates
-##register: device_facts tells the task to save the output to a variable bigip_device_info
+# Playbook to gather facts from the F5 load balancer
+## bigip_device_info: tells the task which module to use. Everything except register is a module parameter defined on the module
+## The gather_subset: system_info parameter tells the module only to grab system level information.
+## The provider: parameter is a group of connection details for the Load Balancer
+## The server: "private_ip" parameter tells the module to connect to the F5 IP address, which is a variable stored in inventory
+## The user: "ansible_user" parameter tells the module the username to login to the F5 device with
+## The password: "ansible_password" parameter tells the module the password to login to the F5 BIG-IP device with, variable in inventory
+## The server_port: parameter tells the module the port to connect to the F5 device with
+## The validate_certs: false parameter tells the module to not validate SSL certificates
+## The register: device_facts tells the task to save the output to a variable bigip_device_info
 
 ---
 - name: GRAB F5 FACTS

@@ -1,4 +1,4 @@
-# Playbook to delete a VIP off the F5 load balancer
+# Playbook to delete a VIP from an F5 load balancer
 ## The playbook will delete the virtual server, then the pool and then the nodes configured in the pool
 
 ---
