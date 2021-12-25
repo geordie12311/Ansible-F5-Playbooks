@@ -1,0 +1,3 @@
+special-vendored-path/* linguist-vendored
+jquery.js linquist.vendored=false
+* .rb linguist language=YAML
